@@ -25,3 +25,28 @@
 .fade-in-up-1 { animation: fadeInUp 0.8s ease-out; }  
 .fade-in-up-2 { animation: fadeInUp 1s ease-out 0.2s; }  
 .fade-in-up-3 { animation: fadeInUp 2s ease-out 0.4s; }  
+
+@keyframes example {  
+    0% { opacity: 0; transform: translateY(-20px); }  
+    100% { opacity: 1; transform: translateY(0); }  
+}  
+
+.animate {  
+    animation: example 2s ease-in-out;  
+}  
+
+.my-element {  
+    animation: example 2s forwards;  
+}  
+
+
+@keyframes fadeIn {  
+    0% { opacity: 0; }  
+    100% { opacity: 1; }  
+}  
+
+.fade-in {  
+    animation: fadeIn 2s forwards;  
+}  
+ 
+ 
