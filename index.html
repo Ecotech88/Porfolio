@@ -17,20 +17,18 @@
 <body class="overflow-x-hidden font-Outfit leading-8 dark:bg-darkTheme dark:text-white">
 
 <!-------------------------------------Nav---Bar  ----------------------------->
-    <nav class="w-full fixed md:px-0 lg:px-8 xl:px-[12%]
+    <nav class="w-full fixed px-2 md:px-0 lg:px-4 xl:px-[12%]
     py-4 flex items-center justify-between z-50 ">
 
    
   <div>  
-    <a href="#top" class=" w-max">
-      <img src="img/Adelogo.png" alt="" class="hidden dark:block">
+    <a href="#top" class="w-max">
+      <img src="img/Adelogo.png" alt="" class="w-20 sm:min-w-[200px] ">
     </a>
-    <a href="#top" class=" w-max">
-      <img src="img/Adelogob.png" class="dark:hidden">
-    </a>
+     
 </div>
-        <ul  class="hidden items-center gap-6 md:flex lg:flex rounded-full
-        px-16 py-3 bg-white shadow-sm bg-opacity-50 font-Ovo" >
+        <ul  class="hidden items-center gap-4 md:flex lg:flex rounded-full
+        px-12 py-3 bg-white shadow-sm bg-opacity-50 font-Ovo lg:text-xl font-black " >
             <li class=" " >
               <a href="#top">Home</a></li>
             <li class=" ">
@@ -81,30 +79,32 @@
   </ul>
 
     <!-- ----------------------------Hero section ---------------->
-     <div class="container-bg w-full  text-center h-screen px-[12%]
-     flex flex-col items-start justify-center gap-5 lg:py-15 rounded-md 
-     ">
-
-        <h3 class="flex justify-center items-center
-         gap-2 text-xl md:text-2xl mb-3 font-Ovo mt-10">
-         <span class="mt-2">Hi! i'm Adelani</span> <img src="img/software-developer.png"
-           class="w-6 ">
-        </h3>
-        <h1 class="max-w-3xl text-3xl sm:text-6xl lg:text-7xl font-Ovo">  I focus on leveraging innovative to enhance user experiences.</h1>
-        <p class="max-w-2xl mx-auto font-Ovo">  Experienced frontend developer in Lagos, Nigeria, with 4-5 years of expertise in creating user interfaces for prominent companies like Andela, SystemSpecs, and Co-Creation Hub (CcHub)  </p>
-
-        <div class=" flex flex-col sm:flex-row items-center gap-4 mt-4">
-            <a href="#contact" class="px-10 py-3 border rounded-full bg-gradient-to-t from-[#b820e6] 
-            to-[#da7d20] dark:border-transparent
-             text-black flex items-center gap-2 " >Contact Me
-        <img src="img/next-icon.png" alt="" class="w-4"></a>
-
-        <a href="./resume/Adelani_Resume(1).pdf" download
-        class="px-10 py-3 border rounded-full border-gray-500 bg-white flex items-center dark:text-black hover:border-orange-700 gap-2">
-        My Resume
-        <img src="img/download (2).png" class="w-4"></a>
-         </div>
-     </div>
+    <div class="container-bg w-full text-center min-h-screen px-[12%] flex flex-col justify-center gap-5 lg:py-5 rounded-md">  
+      <h3 class="flex justify-center items-center gap-2 text-xl md:text-2xl mb-3 font-Ovo mt-10 fade-in-up-1">  
+          <span class="mt-2">Hi! I'm Adelani</span>  
+          <img src="img/software-developer.png" class="w-6">  
+      </h3>  
+  
+      <h1 class="max-w-3xl text-2xl sm:text-4xl lg:text-7xl font-Ovo text-left text-white fade-in-up-2">   
+          I harness innovation to elevate businesses and user experiences.  
+      </h1>  
+  
+      <p class="max-w-2xl font-Ovo text-left fade-in-up-3">  
+          Experienced frontend developer in Lagos, Nigeria, with 4-5 years of expertise in creating user interfaces for prominent companies like Andela, SystemSpecs, and Co-Creation Hub (CcHub).  
+      </p>  
+  
+      <div class="flex flex-col sm:flex-row items-center gap-4 mt-4">  
+          <a href="#contact" class="px-10 py-3 border rounded-full bg-gradient-to-t from-[#b820e6] to-[#da7d20] dark:border-transparent text-black flex items-center gap-2 fade-in-up">  
+              Contact Me  
+              <img src="img/next-icon.png" alt="" class="w-4">  
+          </a>  
+  
+          <a href="./resume/Adelani_Resume(1).pdf" download class="px-10 py-3 border rounded-full border-gray-500 bg-white flex items-center dark:text-black hover:border-orange-700 gap-2 fade-in-up">  
+              My Resume  
+              <img src="img/download (2).png" class="w-4">  
+          </a>  
+      </div>  
+  </div>  
     <!------------------------- about me --------------------------------------------------->
 
 <div class="w-full px-[12%] py-20 scroll-mt-20 " id="about">
@@ -117,11 +117,11 @@
             <img src="img/user-img.JPG" alt="user-img" class="w-64 sm:w-80
             rounded-3xl max-w-none">
            
-            <div class="bg-white w-1/3 aspect-square absolute right-0 bottom-0
+            <div class="bg-white w-1/3 aspect-square absolute right-0 bottom-0 
             rounded-full translate-x-1/4 translate-y-1/3 shadow-[0_4px_55px_rgba(149,0,162,0.15)] flex
              items-center justify-center">
-             <img src="img/Rotation.png" class="w-full absolute top-1/2 left-1/2 spin_slow
-              -translate-x-1/2 -translate-y-1/2">
+             <img src="img/Rotation.png" class="w-full  absolute top-1 left-1 animate-spin_slow
+              translate-x-1/2 translate-y-1/2">
                <img src="img/software-developer.png" alt="" class="w-1/4 absolute top-1/2 left-1/2
               -translate-x-1/2 -translate-y-1/2">
             </div>
@@ -200,11 +200,7 @@
                 hover:-translate-y-1 duration-500">
                     <img src="img/typescript.png" alt="mongodb" class="w-10">
                 </li>
-                <li class="flex items-center justify-center w-12 sm:w-14
-                aspect-square border border-gray-700 rounded-lg cursor-pointer
-                hover:-translate-y-1 duration-500">
-                    <img src="img/folder-type-mongodb-opened.1024x855.png" alt="mongodb" class="w-10">
-                </li>
+                 
                 <li class="flex items-center justify-center w-12 sm:w-14
                 aspect-square border border-gray-700 rounded-lg cursor-pointer
                 hover:-translate-y-1 duration-500">
@@ -392,7 +388,7 @@
                                      </div>
                                              </div>
     </div>
-    <a href="" class=" w-max flex items-center justify-center gap-2
+    <a href="https://github.com/Ecotech88" target="_blank" class=" w-max flex items-center justify-center gap-2
     text-gray-700 border-[0.5px] border-gray-700
      rounded-full py-3 px-10 mx-auto my-20 hover:bg-darkHover hover:text-white duration-500
      dark:text-white">Show more
@@ -444,15 +440,12 @@
 <div class="mt-20">
 
   <div class="text-center">
-    <div>  
+    <div class="w-max mx-auto">  
       <a href="#top">
-        <h2 class="w-100 text-white font-Ovo text-4xl cursor-pointer  hidden dark:block ">ADELANI<span ><h1 class="
-          text-orange-700 inline font-Ovo sm:text-6xl">.</h1></span></h2>
-        <h2 class="w-100 text-black font-Ovo text-4xl cursor-pointer dark:hidden">ADELANI<span><h1 class="
-          text-orange-700 inline font-Ovo sm:text-6xl">.</h1></span></h2>
+        <img src="img/Adelogo.png" alt="" class="w-20 sm:min-w-[200px] ">
       </a>
   </div>
-    <div class="w-max flex items-center gap-2 mx-auto">
+    <div class="w-max flex items-center gap-2 mx-auto cursor-pointer">
       <img src="img/mail-icon.png" class="w-6">
       adeoyejoel121@gmail.com
     </div>
@@ -462,10 +455,10 @@
   <p>© 2025 Adelani. All right reserved.</p>
 
   <ul class="flex items-center gap-10 justify-center mt-4 sm:mt-0">
-    <li class="mr-3"><a href="https://github.com/Ecotech88">GitHub</a></li>
-    <li class="mr-3"><a href="https://www.linkedin.com/in/adeleni?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bjyo1CeYVS7qyHNYyj%2BXqGg%3D%3D
+    <li class="mr-3"><a href="https://github.com/Ecotech88" target="_blank">GitHub</a></li>
+    <li class="mr-3"><a target="_blank" href="https://www.linkedin.com/in/adeleni?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bjyo1CeYVS7qyHNYyj%2BXqGg%3D%3D
       ">LinkedIn</a></li>
-    <li class="mr-3"><a href="https://www.instagram.com/adelani.8/">Instagram</a></li> 
+    <li class="mr-3"><a href="https://www.instagram.com/adelani.8/"target="_blank">Instagram</a></li> 
   </ul>
 
 </div>

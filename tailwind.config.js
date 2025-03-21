@@ -12,7 +12,13 @@ tailwind.config = {
         Ovo: ["Ovo", "serif"]
       },
       animation:{
-        spin_slow: 'spin 6s linear infinte'
+        spin_slow: 'spin 6s linear infinite'
+      },
+      keyframes: {  
+        spin: {  
+          '0%': { transform: 'rotate(0deg)' },  
+          '100%': { transform: 'rotate(360deg)' },
+        }
       },
       colors:{
       lightHover: '#fcf4ff',

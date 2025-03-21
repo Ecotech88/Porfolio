@@ -18,7 +18,7 @@ window.addEventListener('scroll', () =>
 { 
     if (scrollY > 50) {
         navBar.classList.add('bg-white', 'bg-opacity-50', 'backdrop-blur-lg',
-             'shadow-sm', 'dark:bg-darkTheme', 'dark:shadow-white/20');
+             'shadow-sm', 'dark:bg-darkTheme', 'dark:shadow-white/20','dark:bg-transparent');
 
              navList.classList.remove('bg-white', 'bg-opacity-50',
              'shadow-sm','dark:border', 'dark:border-white/50', 'dark:bg-transparent');
@@ -26,8 +26,9 @@ window.addEventListener('scroll', () =>
     }else{
         navBar.classList.remove('bg-white', 'bg-opacity-50', 'backdrop-blur-lg',
              'shadow-sm', 'dark:bg-Theme', 'dark:shadow-white/20');
+
             navList.classList.add('bg-white', 'bg-opacity-50',
-                'shadow-sm','dark:border', 'dark:border-white/50', 'dark:bg-transparent');
+                'lg:shadow-sm','dark:border', 'dark:border-white/50','dark:bg-transparent');
             
             }
 
